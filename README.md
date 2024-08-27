@@ -38,6 +38,23 @@ This approach could potentially bypass the limitations of the LLM's tokenization
 
 By leveraging the LLM's ability to generate code, we can harness its strengths and mitigate its weaknesses, opening up new possibilities for AI applications.
 
+## The Risks
+
+There are several dangers associated with using Python's `exec` function in the way this example proposes:
+
+**1. Security Risk:** 
+
+* `exec` allows you to execute **arbitrary Python code**. This means if the LLM generates malicious code disguised as a function to answer the prompt, it could be executed by `exec` potentially compromising your system. This is especially risky if the LLM is exposed to untrusted user input.
+
+**2. Unintended Behavior:**
+
+* The LLM might not understand the full context of what it needs to generate. It could create a function that seems to work for the specific prompt ("counting r's in Strawberry") but fails for more complex scenarios. This could lead to unexpected results and errors down the line.
+
+**3. Debugging Challenges:**
+
+* If the generated code is complex or poorly written, debugging it becomes a challenge. You wouldn't have the benefit of a well-defined function written by a human developer, making it harder to track down issues.
+
+
 ## The Future of AI: OpenAI's Project Strawberry
 
 As these memes about spelling “strawberry” spill across the internet, OpenAI is working on a new AI product code-named Strawberry, which is supposed to be even more adept at reasoning. The growth of LLMs has been limited by the fact that there simply isn’t enough training data in the world to make products like ChatGPT more accurate. But Strawberry can reportedly generate accurate synthetic data to make OpenAI’s LLMs even better. 
