@@ -27,7 +27,7 @@ ai_response = az_client.chat.completions.create(
         {"role": "user", "content": f"""
 [function criteria]
 - Must be valid Python 3. IMPORTANT!
-- Must use absolutely no librarys. Must be a pure python function.
+- Must use absolutely no libraries. Must be a pure python function.
 - Make sure to use proper PIP formatting.
 - Think critically and step by step. You are an expert Python developer.
          
