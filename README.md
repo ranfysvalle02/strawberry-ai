@@ -1,6 +1,6 @@
 ![](https://tii.imgix.net/production/articles/13494/3737c64b-90b1-4167-8d70-601b9670083c.png?auto=compress&fit=crop&auto=format)
 
-# AI Systems and Their Limitations: The Case of the Miscounted Strawberries
+# AI Counting Crisis
 
 AI systems like **GPT-4o** and **Claude**, despite their advanced capabilities, struggle with seemingly simple tasks such as counting the number of times a letter appears in a word. 
 
