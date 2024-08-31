@@ -75,18 +75,6 @@ There are several dangers associated with using Python's `exec` function in the 
 * If the generated code is complex or poorly written, debugging it becomes a challenge. You wouldn't have the benefit of a well-defined function written by a human developer, making it harder to track down issues.
 
 
-## The Future of AI: OpenAI's Project Strawberry
-
-As these memes about spelling “strawberry” spill across the internet, OpenAI is working on a new AI product code-named Strawberry, which is supposed to be even more adept at reasoning. The growth of LLMs has been limited by the fact that there simply isn’t enough training data in the world to make products like ChatGPT more accurate. But Strawberry can reportedly generate accurate synthetic data to make OpenAI’s LLMs even better. 
-
-According to The Information, Strawberry can solve the New York Times’ Connections word puzzles, which require creative thinking and pattern recognition to solve and can solve math equations that it hasn’t seen before.
-
-Checkout this Github repo https://github.com/ranfysvalle02/crewai-flask-autoresearch/ that discusses the impact of training data on biases and how bias impacts perceived "intelligence".
-
-Meanwhile, Google DeepMind recently unveiled AlphaProof and AlphaGeometry 2, AI systems designed for formal math reasoning. Google says these two systems solved four out of six problems from the International Math Olympiad, which would be a good enough performance to earn as silver medal at the prestigious competition.
-
-It’s a bit of a troll that memes about AI being unable to spell “strawberry” are circulating at the same time as reports on OpenAI’s Strawberry. But OpenAI CEO Sam Altman jumped at the opportunity to show us that he’s got a pretty impressive berry yield in his garden.
-
 [Why can't AI spell strawberry? by TechCrunch](https://techcrunch.com/2024/08/27/why-ai-cant-spell-strawberry/)
 
 ## Example: Code Generation in Action ~50 lines of code
@@ -140,3 +128,4 @@ print("gpt-4o + exec")
 print('The word "Strawberry" contains ' + str(result) + ' instances of the letter "r"')
 
 ```
+
